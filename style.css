@@ -1,21 +1,18 @@
-/* Variáveis de CSS*/
-/* Aqui a gente guarda as cores do site em um só lugar. Vantagem: se quiser trocar uma cor, é só mudar aqui, e ela é atualizada em todos os lugares que as usam. */
+/* Variáveis de CSS */
+/* 
+Aqui a gente guarda as cores do site em um só lugar. 
+Vantagem: se quiser trocar uma cor, muda só aqui e ela é atualizada em todos os lugares que a usam.
+*/
+
 :root {
-  --azul-escuro: #0400ee;
-  --azul-claro: #12b1e6;
-  --verde: #00ff00;
-  --verde-escuro: #008000;
-  --amarelo: #ffff00;
-  --vermelho: #ff0000;
-  --laranja: #ff7f00;
-  --roxo: #4e07c09f;
-  --cinza: #808080;
-  --preto: #000000;
-  --branco: #ffffff;
-  --texto-principal: #333333;
-  --texto-secundario: #666666;
-  --cor-borda: #cccccc;
-  --cor-fundo: #f0f0f0;
+    --azul-escuro: #1D4ED8;
+    --azul: #2563EB;
+    --verde: #16A34A;
+    --verde-escuro: #15803D;
+    --texto-principal: #0F172A;
+    --texto-secundario: #475569;
+    --cor-borda: #E5E7EB;
+    --cor-fundo: #FFFFFF;
 }
 
 /* O "*" seleciona TODOS os elementos da página */
@@ -28,7 +25,7 @@
 }
 
 body {
-    font-family: "Lexend", sans-serif; /* Tipo de fonte do projeto */
+    font-family: "Inter", sans-serif; /* Tipo de fonte do projeto */
     color: var(--texto-principal); /* Cor da fonte */
 }
 
